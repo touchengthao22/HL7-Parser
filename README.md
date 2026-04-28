@@ -86,17 +86,17 @@ OBX|2|NM|GLUCOSE||98|mg/dL|70-110|N|||F|||202604271100
 
 ```
 === MSH - Message Header ===
-field_separator: ^~\&            
-encoding_characters: HOSPITAL    
-sending_application: LAB         
-sending_facility: APP            
-receiving_application: APPFAC    
-receiving_facility: 202604271200 
-datetime:                        
-message_type: ADT^A01            
-message_control_id: 12345        
-processing_id: P                 
-version: 2.3       
+field_separator: |           
+encoding_characters: ^~\&     
+sending_application: HOSPITAL 
+sending_facility: LAB         
+receiving_application: APP    
+receiving_facility: APPFAC    
+datetime: 202604271200        
+message_type:                 
+message_control_id: ADT^A01  
+processing_id: 12345          
+version: 2.3         
 
 === PID - Patient Information ===
 Patient ID: 123456
