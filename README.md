@@ -8,7 +8,7 @@ HL7 messages are widely used in healthcare systems to transmit clinical and admi
 
 ---
 
-## 🚀 Features
+## Features
 
 * Parses HL7 v2 messages from raw text files
 * Supports core segments:
@@ -24,7 +24,7 @@ HL7 messages are widely used in healthcare systems to transmit clinical and admi
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 hl7-parser/
@@ -50,7 +50,7 @@ hl7-parser/
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. **Read HL7 file**
 
@@ -74,7 +74,7 @@ hl7-parser/
 
 ---
 
-## 🧪 Example Output
+## Example Output
 
 ```
 === PID - Patient Information ===
@@ -95,7 +95,7 @@ Glucose: 98 mg/dL (Normal)
 
 ---
 
-## 📌 Key Design Goals
+## Key Design Goals
 
 * **Robustness:** Handles missing HL7 fields without crashing
 * **Modularity:** Each segment is independently parsed
@@ -105,7 +105,7 @@ Glucose: 98 mg/dL (Normal)
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 * Python data parsing & transformation
 * Healthcare data (HL7 v2 standard)
@@ -116,7 +116,7 @@ Glucose: 98 mg/dL (Normal)
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 * Add support for additional HL7 segments (OBR, ORC, NK1)
 * Store parsed data in SQLite or PostgreSQL
@@ -125,7 +125,7 @@ Glucose: 98 mg/dL (Normal)
 
 ---
 
-## 📂 Example HL7 Input
+## Example HL7 Input
 
 ```
 MSH|^~\&|HOSPITAL|LAB|...
