@@ -85,6 +85,19 @@ OBX|2|NM|GLUCOSE||98|mg/dL|70-110|N|||F|||202604271100
 ## Example Output
 
 ```
+=== MSH - Message Header ===
+field_separator: ^~\&            
+encoding_characters: HOSPITAL    
+sending_application: LAB         
+sending_facility: APP            
+receiving_application: APPFAC    
+receiving_facility: 202604271200 
+datetime:                        
+message_type: ADT^A01            
+message_control_id: 12345        
+processing_id: P                 
+version: 2.3       
+
 === PID - Patient Information ===
 Patient ID: 123456
 Name: John Doe
@@ -133,13 +146,4 @@ Glucose: 98 mg/dL (Normal)
 
 ---
 
-## Example HL7 Input
 
-```
-MSH|^~\&|HOSPITAL|LAB|...
-PID|1||123456||DOE^JOHN||19800115|M|...
-PV1|1|I|WARD^101...
-OBX|1|NM|WBC||6.4|...
-```
-
----
